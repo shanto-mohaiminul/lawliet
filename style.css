@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Plus+Jakarta+Sans:wght@400;500;700&display=swap');
+
+/* roots start*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --white:#ffffff;
+    --black:#000000;
+    --primary:#0f6e8c;
+    --secondary:#05546d;
+    --top-heading:#094b72;
+}
+
+h1,h2,h3,h4{
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+
+p,a{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+.container{
+    max-width: 1110px;
+    margin: auto;
+}
+
+/* roots end*/
+
+/*menu starts*/
+
+nav{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+nav .nav-menu ul{
+    display: flex;
+    gap: 80px;
+}
+nav .nav-logo{
+    margin-top: 11px;
+}
+nav .nav-menu ul li{
+    list-style: none;
+}
+nav .nav-menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+
+    color: var(--black);
+}
+/*menu ends*/
+
+/*hero starts*/
+
+.hero-section{
+    background-color:#f9f8f9 ;
+}
+.hero-section .hero-content{
+    display: flex;
+    max-width: 1440px;
+}
+.hero-section .hero-content .hero-left-content{
+    margin-top: 180px;
+    margin-left: 55px;
+    flex: 60%;
+}
+.hero-section .hero-content .hero-left-content h1{
+    font-size: 90px;
+    color: var(--top-heading);
+}
+
+.hero-section .hero-content .hero-left-content p{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0.5px;
+    margin-top: 60px;
+    margin-right: 148px;
+    margin-bottom: 8px;
+}
+.hero-section .hero-content .hero-left-content .company-logos{
+    display: flex;
+    gap: 30px;
+}
+.hero-section .hero-content .hero-left-content .company-logos .logo ul li{
+    list-style: none;
+}
+.hero-section .hero-content .hero-left-content .company-logos .logo ul li img{
+    margin-top: 30px;
+}
+.hero-section .hero-content .hero-left-content button{
+    background-color: var(--top-heading);
+    color: var(--white);
+    padding: 22px;
+    text-transform: uppercase;
+    border-radius: 8px;
+    border: none;
+    font-weight: 700;
+    margin-top: 30px;
+}
+.hero-section .hero-content .hero-left-content .hero-trust-company p{
+    font-size: 22px;
+    line-height: 31px;
+    font-weight: 400;
+    color: #8B8C8C;
+    margin-top: 115px;
+} 
+.hero-section .hero-content .hero-right-content {
+    flex: 40%;
+}
+.hero-section .hero-content .hero-right-content img{
+    width: 549px;
+    height: 974px;
+    margin-left: -150px;
+}
+/*hero ends*/
