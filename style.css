@@ -54,7 +54,6 @@ nav .nav-menu ul li{
 nav .nav-menu ul li a{
     text-decoration: none;
     text-transform: uppercase;
-
     color: var(--black);
 }
 /*menu ends*/
@@ -63,6 +62,9 @@ nav .nav-menu ul li a{
 
 .hero-section{
     background-color:#f9f8f9 ;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 .hero-section .hero-content{
     display: flex;
@@ -70,7 +72,7 @@ nav .nav-menu ul li a{
 }
 .hero-section .hero-content .hero-left-content{
     margin-top: 180px;
-    margin-left: 55px;
+    margin-left: 167px;
     flex: 60%;
 }
 .hero-section .hero-content .hero-left-content h1{
@@ -120,6 +122,106 @@ nav .nav-menu ul li a{
 .hero-section .hero-content .hero-right-content img{
     width: 549px;
     height: 974px;
-    margin-left: -150px;
+    margin-left: -130px;
 }
 /*hero ends*/
+
+/*Service Section start*/
+.legal-section{
+    display: flex;
+    background-color: #F2FCFF;
+    padding: 133px 0;
+    justify-content: center;
+}
+
+.legal-section .legal-width{
+    max-width: 1440px;
+}
+
+.legal-section div:first-child{
+    display: flex;
+}
+
+.legal-section .legal-section-left{
+    flex: 50%;
+    margin-top: 80px;
+    margin-right: 50px;
+}
+.legal-section .legal-section-left h2{
+    
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0.32px;
+    margin-left: 167px;
+    margin-right: 50px;
+}
+.legal-section .legal-section-left p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0.5px;
+    margin-top: 20px;
+    margin-left: 167px;
+    margin-right: 50px;
+}
+
+.legal-section
+.legal-section-right{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    flex: 50%;
+    justify-content: flex-start;
+    
+}
+.legal-section
+.legal-section-right
+.legal-right-container:nth-child(3),
+.legal-section
+.legal-section-right
+.legal-right-container:nth-child(4){
+    margin-top: 18px;
+}
+.legal-section
+.legal-section-right
+.legal-right-container
+article{
+    background-color: #FCFCFC;
+    padding: 24px;
+    width: 260px;
+    height: 260px;
+    margin-right: 18px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.legal-section
+.legal-section-right
+.legal-right-container
+article img{
+    height: 37px;
+    width: 37px;
+    margin-bottom: 25px;
+}
+
+.legal-section
+.legal-section-right
+.legal-right-container
+article h3{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+}
+
+.legal-section
+.legal-section-right
+.legal-right-container
+article p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+}
+/*Service Section ends*/
