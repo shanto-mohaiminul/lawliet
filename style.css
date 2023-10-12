@@ -347,3 +347,136 @@ article p{
     }
 
 /*testimonial Section ends*/
+
+/*CTA Section starts*/
+.cta{
+    display: flex;
+    justify-content: center;
+}
+.cta-section {
+    display: flex;
+    max-width: 1440px;
+}
+.cta-section .cta-content{
+    margin-left: 120px;
+    margin-top: 50px;
+}
+
+.cta-section .cta-content h2{
+    font-size: 48px;
+    line-height: 64px;
+    letter-spacing: 0.5;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.cta-section .cta-content p{
+    font-size: 24px;
+    margin-right: 43px;
+    line-height: 36px;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+}
+
+.cta-section .cta-content button{
+    background-color: var(--primary);
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0.5;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 37px;
+
+}
+.cta-section .cta-content button i{
+    width: 28.5px;
+    height: 32px;
+    margin-right: 16px;
+}
+/*CTA Section ends*/
+
+/*footer Section Starts*/
+.footer{
+    display: flex;
+    justify-content: center;
+    padding: 75px 0;
+    background-color: #0f6e8c;
+}
+.footer-section{
+    display: flex;
+    width: 100%;
+    max-width: 1110px;
+}
+.footer-logo{
+    flex-basis: 50%;
+}
+.footer-nav{
+    flex-basis: 50%;
+}
+.footer-nav div{
+    display: flex;
+    justify-content: space-around;
+}
+.footer-nav-menu{
+    display: flex;
+    flex-direction: column;
+}
+.footer-nav-menu h3{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #ffffff;
+    margin-bottom: 33px;
+}
+.footer-nav-menu ul li{
+    list-style: none;
+    margin-top: 15px;
+}
+.footer-nav-menu ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    
+}
+/*footer Section ends*/
+
+/*sub-footer Section starts*/
+.sub-foot{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    background-color: #05546d;
+}
+.sub-foot .sub-foot-section{
+    display: flex;
+    padding: 30px 0;
+    max-width: 1110px;
+    width: 100%;
+}
+.sub-foot-copyrights{
+    flex-basis: 50%;
+}
+.sub-foot-copyrights h3{
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+}
+.sub-foot-icons{
+    flex-basis: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.sub-foot-icons i{
+    color: #ffffff;
+    margin-right: 18px;
+    background-color: #18647b;
+    padding: 8px;
+    border-radius: 50%;
+}
+/*sub-footer Section ends*/
